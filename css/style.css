@@ -1,0 +1,27 @@
+/* Reset */
+body,h1,h2,p,ul,li,a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Nunito",Arial,Sans-serif;
+    color: #222222;
+}
+
+ul{
+    list-style: none;/*Retira o estilo das listas*/
+}
+
+a{
+    text-decoration: none; /*Retira a decoração dos links*/
+}
+
+img{
+    display:block;
+    max-width: 100%; 
+}
+
+*{/*Asterico siginifica que vai ser aplicado a todas as tags que existem no site*/
+    box-sizing : border-box; /*O padding respeita o width definido na box*/
+}
